@@ -6,12 +6,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E2C733DA-8513-48E1-B598-9039DCC29940}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Laboratory_Works</RootNamespace>
+    <RootNamespace>LaboratoryWorks</RootNamespace>
     <AssemblyName>Laboratory Works</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <LangVersion>10</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,21 +47,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainForm.cs">
+    <Compile Include="LabWorkForm5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="LabWorkForm5.Designer.cs">
+      <DependentUpon>LabWorkForm5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabWorkForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabWorkForm2.Designer.cs">
+      <DependentUpon>LabWorkForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabWorkForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabWorkForm1.Designer.cs">
+      <DependentUpon>LabWorkForm1.cs</DependentUpon>
     </Compile>
     <Compile Include="DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="LabWorkForm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabWorkForm4.Designer.cs">
+      <DependentUpon>LabWorkForm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabWorkForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabWorkForm3.Designer.cs">
+      <DependentUpon>LabWorkForm3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="LabWorkForm1.resx">
+      <DependentUpon>LabWorkForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabWorkForm5.resx">
+      <DependentUpon>LabWorkForm5.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabWorkForm2.resx">
+      <DependentUpon>LabWorkForm2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabWorkForm4.resx">
+      <DependentUpon>LabWorkForm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabWorkForm3.resx">
+      <DependentUpon>LabWorkForm3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

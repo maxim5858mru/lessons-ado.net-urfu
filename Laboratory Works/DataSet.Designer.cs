@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace Laboratory_Works {
+namespace LaboratoryWorks {
     
     
     /// <summary>
@@ -22,7 +22,7 @@ namespace Laboratory_Works {
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
     [global::System.Xml.Serialization.XmlRootAttribute("lessonsUrFUDataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class lessonsUrFUDataSet : global::System.Data.DataSet {
+    public partial class dataSetLessonsUrfu : global::System.Data.DataSet {
         
         private EquipmentDataTable tableEquipment;
         
@@ -56,7 +56,7 @@ namespace Laboratory_Works {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public lessonsUrFUDataSet() {
+        public dataSetLessonsUrfu() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -67,7 +67,7 @@ namespace Laboratory_Works {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected lessonsUrFUDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected dataSetLessonsUrfu(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -270,7 +270,7 @@ namespace Laboratory_Works {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            lessonsUrFUDataSet cln = ((lessonsUrFUDataSet)(base.Clone()));
+            dataSetLessonsUrfu cln = ((dataSetLessonsUrfu)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -541,7 +541,7 @@ namespace Laboratory_Works {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+            dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -911,7 +911,7 @@ namespace Laboratory_Works {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+                dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1189,7 +1189,7 @@ namespace Laboratory_Works {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+                dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1548,7 +1548,7 @@ namespace Laboratory_Works {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+                dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1935,7 +1935,7 @@ namespace Laboratory_Works {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+                dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2213,7 +2213,7 @@ namespace Laboratory_Works {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+                dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2562,7 +2562,7 @@ namespace Laboratory_Works {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+                dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2967,7 +2967,7 @@ namespace Laboratory_Works {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+                dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3361,7 +3361,7 @@ namespace Laboratory_Works {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+                dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3652,7 +3652,7 @@ namespace Laboratory_Works {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+                dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3963,7 +3963,7 @@ namespace Laboratory_Works {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                lessonsUrFUDataSet ds = new lessonsUrFUDataSet();
+                dataSetLessonsUrfu ds = new dataSetLessonsUrfu();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -5747,7 +5747,7 @@ namespace Laboratory_Works {
         }
     }
 }
-namespace Laboratory_Works.lessonsUrFUDataSetTableAdapters {
+namespace LaboratoryWorks.lessonsUrFUDataSetTableAdapters {
     
     
     /// <summary>
@@ -5930,7 +5930,7 @@ SELECT InventoryID, SerialNumber, EquipmentName, RegistrationDate, Price, Warran
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5948,7 +5948,7 @@ SELECT InventoryID, SerialNumber, EquipmentName, RegistrationDate, Price, Warran
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(lessonsUrFUDataSet.EquipmentDataTable dataTable) {
+        public virtual int Fill(dataSetLessonsUrfu.EquipmentDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -5961,9 +5961,9 @@ SELECT InventoryID, SerialNumber, EquipmentName, RegistrationDate, Price, Warran
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual lessonsUrFUDataSet.EquipmentDataTable GetData() {
+        public virtual dataSetLessonsUrfu.EquipmentDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            lessonsUrFUDataSet.EquipmentDataTable dataTable = new lessonsUrFUDataSet.EquipmentDataTable();
+            dataSetLessonsUrfu.EquipmentDataTable dataTable = new dataSetLessonsUrfu.EquipmentDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -5971,14 +5971,14 @@ SELECT InventoryID, SerialNumber, EquipmentName, RegistrationDate, Price, Warran
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(lessonsUrFUDataSet.EquipmentDataTable dataTable) {
+        public virtual int Update(dataSetLessonsUrfu.EquipmentDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(lessonsUrFUDataSet dataSet) {
+        public virtual int Update(dataSetLessonsUrfu dataSet) {
             return this.Adapter.Update(dataSet, "Equipment");
         }
         
@@ -6317,7 +6317,7 @@ SELECT InventoryID, SerialNumber, EquipmentName, RegistrationDate, Price, Warran
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6334,7 +6334,7 @@ SELECT InventoryID, SerialNumber, EquipmentName, RegistrationDate, Price, Warran
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(lessonsUrFUDataSet.ReasonsForReturnDataTable dataTable) {
+        public virtual int Fill(dataSetLessonsUrfu.ReasonsForReturnDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6347,9 +6347,9 @@ SELECT InventoryID, SerialNumber, EquipmentName, RegistrationDate, Price, Warran
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual lessonsUrFUDataSet.ReasonsForReturnDataTable GetData() {
+        public virtual dataSetLessonsUrfu.ReasonsForReturnDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            lessonsUrFUDataSet.ReasonsForReturnDataTable dataTable = new lessonsUrFUDataSet.ReasonsForReturnDataTable();
+            dataSetLessonsUrfu.ReasonsForReturnDataTable dataTable = new dataSetLessonsUrfu.ReasonsForReturnDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6357,14 +6357,14 @@ SELECT InventoryID, SerialNumber, EquipmentName, RegistrationDate, Price, Warran
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(lessonsUrFUDataSet.ReasonsForReturnDataTable dataTable) {
+        public virtual int Update(dataSetLessonsUrfu.ReasonsForReturnDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(lessonsUrFUDataSet dataSet) {
+        public virtual int Update(dataSetLessonsUrfu dataSet) {
             return this.Adapter.Update(dataSet, "ReasonsForReturn");
         }
         
@@ -6664,7 +6664,7 @@ SELECT Id, Responsible, Equipment, DateOfReceiving, ReturnDate, PurposeOfUse, Re
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6682,7 +6682,7 @@ SELECT Id, Responsible, Equipment, DateOfReceiving, ReturnDate, PurposeOfUse, Re
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(lessonsUrFUDataSet.ResponsibilityDataTable dataTable) {
+        public virtual int Fill(dataSetLessonsUrfu.ResponsibilityDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6695,9 +6695,9 @@ SELECT Id, Responsible, Equipment, DateOfReceiving, ReturnDate, PurposeOfUse, Re
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual lessonsUrFUDataSet.ResponsibilityDataTable GetData() {
+        public virtual dataSetLessonsUrfu.ResponsibilityDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            lessonsUrFUDataSet.ResponsibilityDataTable dataTable = new lessonsUrFUDataSet.ResponsibilityDataTable();
+            dataSetLessonsUrfu.ResponsibilityDataTable dataTable = new dataSetLessonsUrfu.ResponsibilityDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6705,14 +6705,14 @@ SELECT Id, Responsible, Equipment, DateOfReceiving, ReturnDate, PurposeOfUse, Re
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(lessonsUrFUDataSet.ResponsibilityDataTable dataTable) {
+        public virtual int Update(dataSetLessonsUrfu.ResponsibilityDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(lessonsUrFUDataSet dataSet) {
+        public virtual int Update(dataSetLessonsUrfu dataSet) {
             return this.Adapter.Update(dataSet, "Responsibility");
         }
         
@@ -7090,7 +7090,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7108,7 +7108,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(lessonsUrFUDataSet.ResponsibleDataTable dataTable) {
+        public virtual int Fill(dataSetLessonsUrfu.ResponsibleDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7121,9 +7121,9 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual lessonsUrFUDataSet.ResponsibleDataTable GetData() {
+        public virtual dataSetLessonsUrfu.ResponsibleDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            lessonsUrFUDataSet.ResponsibleDataTable dataTable = new lessonsUrFUDataSet.ResponsibleDataTable();
+            dataSetLessonsUrfu.ResponsibleDataTable dataTable = new dataSetLessonsUrfu.ResponsibleDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -7131,14 +7131,14 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(lessonsUrFUDataSet.ResponsibleDataTable dataTable) {
+        public virtual int Update(dataSetLessonsUrfu.ResponsibleDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(lessonsUrFUDataSet dataSet) {
+        public virtual int Update(dataSetLessonsUrfu dataSet) {
             return this.Adapter.Update(dataSet, "Responsible");
         }
         
@@ -7576,7 +7576,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7593,7 +7593,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(lessonsUrFUDataSet.SuppliersDataTable dataTable) {
+        public virtual int Fill(dataSetLessonsUrfu.SuppliersDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7606,9 +7606,9 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual lessonsUrFUDataSet.SuppliersDataTable GetData() {
+        public virtual dataSetLessonsUrfu.SuppliersDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            lessonsUrFUDataSet.SuppliersDataTable dataTable = new lessonsUrFUDataSet.SuppliersDataTable();
+            dataSetLessonsUrfu.SuppliersDataTable dataTable = new dataSetLessonsUrfu.SuppliersDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -7616,14 +7616,14 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(lessonsUrFUDataSet.SuppliersDataTable dataTable) {
+        public virtual int Update(dataSetLessonsUrfu.SuppliersDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(lessonsUrFUDataSet dataSet) {
+        public virtual int Update(dataSetLessonsUrfu dataSet) {
             return this.Adapter.Update(dataSet, "Suppliers");
         }
         
@@ -7876,7 +7876,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7894,7 +7894,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(lessonsUrFUDataSet.vw_EquipmentDataTable dataTable) {
+        public virtual int Fill(dataSetLessonsUrfu.vw_EquipmentDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7907,9 +7907,9 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual lessonsUrFUDataSet.vw_EquipmentDataTable GetData() {
+        public virtual dataSetLessonsUrfu.vw_EquipmentDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            lessonsUrFUDataSet.vw_EquipmentDataTable dataTable = new lessonsUrFUDataSet.vw_EquipmentDataTable();
+            dataSetLessonsUrfu.vw_EquipmentDataTable dataTable = new dataSetLessonsUrfu.vw_EquipmentDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -8054,7 +8054,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8073,7 +8073,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(lessonsUrFUDataSet.vw_ResponsibilityDataTable dataTable) {
+        public virtual int Fill(dataSetLessonsUrfu.vw_ResponsibilityDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -8086,9 +8086,9 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual lessonsUrFUDataSet.vw_ResponsibilityDataTable GetData() {
+        public virtual dataSetLessonsUrfu.vw_ResponsibilityDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            lessonsUrFUDataSet.vw_ResponsibilityDataTable dataTable = new lessonsUrFUDataSet.vw_ResponsibilityDataTable();
+            dataSetLessonsUrfu.vw_ResponsibilityDataTable dataTable = new dataSetLessonsUrfu.vw_ResponsibilityDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -8232,7 +8232,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8254,7 +8254,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(lessonsUrFUDataSet.sp_DisplayEquipmentByUserDataTable dataTable, string surname, string name, string middleName, global::System.Nullable<global::System.DateTime> date) {
+        public virtual int Fill(dataSetLessonsUrfu.sp_DisplayEquipmentByUserDataTable dataTable, string surname, string name, string middleName, global::System.Nullable<global::System.DateTime> date) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((surname == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -8291,7 +8291,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual lessonsUrFUDataSet.sp_DisplayEquipmentByUserDataTable GetData(string surname, string name, string middleName, global::System.Nullable<global::System.DateTime> date) {
+        public virtual dataSetLessonsUrfu.sp_DisplayEquipmentByUserDataTable GetData(string surname, string name, string middleName, global::System.Nullable<global::System.DateTime> date) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((surname == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -8317,7 +8317,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
             else {
                 this.Adapter.SelectCommand.Parameters[4].Value = global::System.DBNull.Value;
             }
-            lessonsUrFUDataSet.sp_DisplayEquipmentByUserDataTable dataTable = new lessonsUrFUDataSet.sp_DisplayEquipmentByUserDataTable();
+            dataSetLessonsUrfu.sp_DisplayEquipmentByUserDataTable dataTable = new dataSetLessonsUrfu.sp_DisplayEquipmentByUserDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -8454,7 +8454,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8474,7 +8474,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(lessonsUrFUDataSet.sp_DisplayEquipmentDelayingDataTable dataTable, global::System.Nullable<int> inventoryID, string equipmentName) {
+        public virtual int Fill(dataSetLessonsUrfu.sp_DisplayEquipmentDelayingDataTable dataTable, global::System.Nullable<int> inventoryID, string equipmentName) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((inventoryID.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(inventoryID.Value));
@@ -8499,7 +8499,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual lessonsUrFUDataSet.sp_DisplayEquipmentDelayingDataTable GetData(global::System.Nullable<int> inventoryID, string equipmentName) {
+        public virtual dataSetLessonsUrfu.sp_DisplayEquipmentDelayingDataTable GetData(global::System.Nullable<int> inventoryID, string equipmentName) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((inventoryID.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(inventoryID.Value));
@@ -8513,7 +8513,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
             else {
                 this.Adapter.SelectCommand.Parameters[2].Value = ((string)(equipmentName));
             }
-            lessonsUrFUDataSet.sp_DisplayEquipmentDelayingDataTable dataTable = new lessonsUrFUDataSet.sp_DisplayEquipmentDelayingDataTable();
+            dataSetLessonsUrfu.sp_DisplayEquipmentDelayingDataTable dataTable = new dataSetLessonsUrfu.sp_DisplayEquipmentDelayingDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -8652,7 +8652,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8670,7 +8670,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(lessonsUrFUDataSet.sp_DisplayUsersDelayingEquipmentDataTable dataTable) {
+        public virtual int Fill(dataSetLessonsUrfu.sp_DisplayUsersDelayingEquipmentDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -8683,9 +8683,9 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual lessonsUrFUDataSet.sp_DisplayUsersDelayingEquipmentDataTable GetData() {
+        public virtual dataSetLessonsUrfu.sp_DisplayUsersDelayingEquipmentDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            lessonsUrFUDataSet.sp_DisplayUsersDelayingEquipmentDataTable dataTable = new lessonsUrFUDataSet.sp_DisplayUsersDelayingEquipmentDataTable();
+            dataSetLessonsUrfu.sp_DisplayUsersDelayingEquipmentDataTable dataTable = new dataSetLessonsUrfu.sp_DisplayUsersDelayingEquipmentDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -8720,14 +8720,14 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         private void InitCommandCollection() {
             this._commandCollection = new global::System.Data.IDbCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Connection = new global::System.Data.SqlClient.SqlConnection(global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Connection = new global::System.Data.SqlClient.SqlConnection(global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandText = "dbo.sp_ChangePrimaryKeyEquipment";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@oldInventoryID", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@newInventoryID", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Connection = new global::System.Data.SqlClient.SqlConnection(global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Connection = new global::System.Data.SqlClient.SqlConnection(global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).CommandText = "dbo.sp_ChangePrimaryKeyEquipmentWithDel";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -8987,7 +8987,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(lessonsUrFUDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(dataSetLessonsUrfu dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._suppliersTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.Suppliers.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -9042,7 +9042,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(lessonsUrFUDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(dataSetLessonsUrfu dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._suppliersTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.Suppliers.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -9092,7 +9092,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(lessonsUrFUDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(dataSetLessonsUrfu dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._responsibilityTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.Responsibility.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -9166,7 +9166,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(lessonsUrFUDataSet dataSet) {
+        public virtual int UpdateAll(dataSetLessonsUrfu dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }

@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace Laboratory_Works {
+namespace LaboratoryWorks {
     
     
     /// <summary>
@@ -2831,7 +2831,7 @@ namespace Laboratory_Works {
         }
     }
 }
-namespace Laboratory_Works.lessonsUrFUDataSetTableAdapters {
+namespace LaboratoryWorks.lessonsUrFUDataSetTableAdapters {
     
     
     /// <summary>
@@ -3014,7 +3014,7 @@ SELECT InventoryID, SerialNumber, EquipmentName, RegistrationDate, Price, Warran
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3401,7 +3401,7 @@ SELECT InventoryID, SerialNumber, EquipmentName, RegistrationDate, Price, Warran
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3748,7 +3748,7 @@ SELECT Id, Responsible, Equipment, DateOfReceiving, ReturnDate, PurposeOfUse, Re
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4174,7 +4174,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4660,7 +4660,7 @@ SELECT PersonnelNumber, Surname, Name, MiddleName, Workshop, LotNumber, Departme
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Laboratory_Works.Properties.Settings.Default.lessonsUrFUConnectionString;
+            this._connection.ConnectionString = global::LaboratoryWorks.Properties.Settings.Default.lessonsUrFUConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
