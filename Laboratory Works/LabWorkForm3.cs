@@ -13,11 +13,11 @@ namespace LaboratoryWorks
         /// <summary>
         /// Соединение с базой данных
         /// </summary>
-        private readonly SqlConnection _sqlConnection = new ("Data Source=localhost;" +
-                                                             "Initial Catalog=lessonsUrFU;" +
-                                                             "Persist Security Info=True;" +
-                                                             "User ID=sa;" +
-                                                             "Password=KqGN?a9Yvi");
+        private readonly SqlConnection _sqlConnection = new("Data Source=localhost;" +
+                                                            "Initial Catalog=lessonsUrFU;" +
+                                                            "Persist Security Info=True;" +
+                                                            "User ID=sa;" +
+                                                            "Password=KqGN?a9Yvi");
 
 
         // ------------------------------------

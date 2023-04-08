@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TestDataGeneratorSettingsState">
+    <option name="userDefinedGenerators">
+      <list>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="regex_key" value="\d{10}" />
+            </map>
+          </option>
+          <option name="name" value="SerialNumber" />
+          <option name="type" value="Regex" />
+          <option name="vtlVariable" value="serialnumber" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="regex_key" value="[1-5]{1,2}[05]0" />
+            </map>
+          </option>
+          <option name="name" value="Price L" />
+          <option name="type" value="Regex" />
+          <option name="vtlVariable" value="price_l" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="regex_key" value="[1-6][1-9]{1,2}[05]0" />
+            </map>
+          </option>
+          <option name="name" value="Price M" />
+          <option name="type" value="Regex" />
+          <option name="vtlVariable" value="price_m" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="regex_key" value="[1-6][1-9]{2}[05]0" />
+            </map>
+          </option>
+          <option name="name" value="Price H" />
+          <option name="type" value="Regex" />
+          <option name="vtlVariable" value="price_h" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="regex_key" value="(DEFAULT|CONVERT\(DATE, '([0-1][1-9]|2[0-8])\.(0[1-9]|1[0-2])\.20([0-1][0-9]|2[0-3])', 4\))" />
+            </map>
+          </option>
+          <option name="name" value="Date" />
+          <option name="type" value="Regex" />
+          <option name="vtlVariable" value="date" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="dictionary_key" value="NULL, 1&#10;NULL, 2&#10;NULL, 3&#10;NULL, 4&#10;NULL, 5&#10;N'ул. Республики 185а', 1&#10;N'ул. 8 Марта 54/1', 2&#10;N'ул. Ленина 2', 2&#10;N'ул. Академическая 43в', 3&#10;N'ул. Академическая 175', 3&#10;N'ул. Холодильная 2', 4&#10;N'ул. Центральная 69', 4&#10;N'ул. Профсоюзная 35', 4&#10;N'ул. 50 лет Октября 22/3', 5" />
+            </map>
+          </option>
+          <option name="name" value="Supplier" />
+          <option name="vtlVariable" value="supplier" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="dictionary_key" value="Ноутбук" />
+            </map>
+          </option>
+          <option name="name" value="Type" />
+          <option name="vtlVariable" value="type" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="dictionary_key" value="Apple MacBook Pro 13 2022 MNEH3&#10;Apple MacBook Air 13 2022 MLY33&#10;ASUS X515MA-EJ493&#10;Acer Aspire 5 A515-57-51W3&#10;MSI Modern B5M-244XRU 9S7-14DL24-244&#10;HUAWEI MateBook D 14NbD-WDI9&#10;HONOR MagicBook 15 2021 5301AELH&#10;Xiaomi RedmiBook 15 JYU4525RU" />
+            </map>
+          </option>
+          <option name="name" value="Model" />
+          <option name="vtlVariable" value="model" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="delimiter_key" value="" />
+              <entry key="postfix_key" value="" />
+              <entry key="prefix_key" value="" />
+              <entry key="template_key" value="       ($serialnumber, N'$type $model', $date, $price_h, $supplier),&#10;" />
+            </map>
+          </option>
+          <option name="name" value="Equipment Record" />
+          <option name="type" value="Multiple" />
+        </CustomGeneratorSettings>
+      </list>
+    </option>
+  </component>
+</project>
